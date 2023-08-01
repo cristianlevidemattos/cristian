@@ -1,12 +1,12 @@
-:root {
-    --cor-de-fundo: #EBECEE;
-    }
-    body {
-        background-color: var(--cor-de-fundo);
-        }
-        <body>
-          <h1>Alurabook</h1>
-      </body>
-h1 {
-    background-color: white;
-    }
+*{
+    padding: 0;
+    margin:0;
+    background-color: blue;
+}
+
+.quebra-cabeca{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
